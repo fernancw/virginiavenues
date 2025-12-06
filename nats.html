@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find the best concert venues in Virginia!">
+    <meta name="author" content="Venues of Virginia">
+    <title>Nationals Park</title>
+    <link rel="icon" type="image/x-icon" href="va.png" >
+
+    <!-- Bootstrap v5.3.7 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=Meow+Script&family=New+Amsterdam&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+  <div class="container px-4">
+
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="va.png" alt="Venues of Virginia logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="venuesDropdown"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Venues
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="venuesDropdown">
+            <li><a class="dropdown-item" href="venues.html">Overview</a></li>
+            <li><a class="dropdown-item" href="jefferson.html">The Jefferson, Charlottesville</a></li>
+            <li><a class="dropdown-item" href="nats.html">The Nats Stadium, Washington D.C.</a></li>
+            <li><a class="dropdown-item" href="allianz.html">The Allianz Amphitheater, Richmond</a></li>
+            <li><a class="dropdown-item" href="veterans.html">Veterans United, Virginia Beach</a></li>
+            <li><a class="dropdown-item" href="hampton.html">Hampton Coliseum, Hampton</a></li>
+            <li><a class="dropdown-item" href="anthem.html">The Anthem, Washington D.C.</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="suggestions.html">Suggestions</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HERO HEADER -->
+<header class="nats-hero text-white d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="fw-bold display-4 mb-3">The Nats Stadium</h1>
+        <p class="lead mb-4">Washington, D.C.</p>
+    </div>
+</header>
+
+<!-- MAIN -->
+<main class="container my-5">
+
+    <!-- ABOUT -->
+    <section class="mb-5">
+        <h2 class="fw-bold mb-3 text-center">About Nationals Park</h2>
+        <p class="text-center nats-about-text mx-auto">
+            Opened in 2008, Nationals Park is the home of the Washington Nationals and one of the most
+            modern ballparks on the East Coast. Located in the Capitol Riverfront neighborhood, it offers
+            clean sightlines, strong fan energy, and easy access via the DC Metro.
+        </p>
+    </section>
+
+    <!-- PROS & CONS -->
+    <section class="my-5">
+      <h2 class="text-center mb-4">Pros & Cons</h2>
+        <div class="row justify-content-center g-4">
+
+            <!-- PROS -->
+            <div class="col-md-5">
+                <div class="card shadow-lg h-100 nats-pros-cons-card">
+                    <div class="card-header nats-pros-header">
+                        Pros
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">Modern and clean stadium layout.</li>
+                            <li class="mb-2">Convenient Metro access (Navy Yard–Ballpark station).</li>
+                            <li class="mb-2">Good food variety featuring local DC vendors.</li>
+                            <li class="mb-2">Nice riverfront atmosphere outside the stadium.</li>
+                            <li class="mb-2">Strong energy during weekend games and events.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONS -->
+            <div class="col-md-5">
+                <div class="card shadow-lg h-100 nats-pros-cons-card">
+                    <div class="card-header nats-cons-header">
+                        Cons
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2">Concessions and tickets can be pricey.</li>
+                            <li class="mb-2">Day games can be very hot depending on seating.</li>
+                            <li class="mb-2">Parking is limited and expensive.</li>
+                            <li class="mb-2">Metro crowds get heavy after games.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WEBSITE BUTTON -->
+    <section class="text-center mt-5">
+        <h3 class="fw-bold mb-3">Visit the Official Website</h3>
+        <p class="mb-3">View schedules, events, and ticket details.</p>
+        <a href="https://www.mlb.com/nationals/ballpark" 
+           target="_blank" 
+           class="btn btn-dark px-4 py-2 fw-bold">
+            Nationals Park Website
+        </a>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="py-4 bg-dark">
+  <div class="container text-center text-white small">
+    <p class="m-0">&copy; 2025 Venues of Virginia | Explore. Visit. Experience.</p>
+  </div>
+</footer>
+
+</body>
+</html>
