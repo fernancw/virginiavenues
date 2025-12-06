@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find the best concert venues in Virginia!">
+    <meta name="author" content="Venues of Virginia">
+    <title>Venues</title>
+    <link rel="icon" type="image/x-icon" href="va.png">
+
+   <!-- Bootstrap v5.3.7 -->
+   <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">        
+   <!-- END LOADING BOOTSTRAP CSS -->
+    
+    <link href="style.css" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=Meow+Script&family=New+Amsterdam&display=swap" rel="stylesheet">
+  </head>
+
+
+
+  <body id="page-top">
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+  <div class="container px-4">
+
+    <!-- Logo  -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="va.png" alt="Venues of Virginia logo">
+    </a>
+
+    <!-- Mobile toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Items  -->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle"
+             href="#"
+             id="venuesDropdown"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Venues
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="venuesDropdown">
+            <li><a class="dropdown-item" href="venues.html">Overview</a></li>
+            <li><a class="dropdown-item" href="jefferson.html">The Jefferson, Charlottesville</a></li>
+            <li><a class="dropdown-item" href="nats.html">The Nats Stadium, Washington D.C.</a></li>
+            <li><a class="dropdown-item" href="allianz.html">The Allianz Amphitheater, Richmond</a></li>
+            <li><a class="dropdown-item" href="veterans.html">Veterans United, Virginia Beach</a></li>
+            <li><a class="dropdown-item" href="hampton.html">Hampton Coliseum, Hampton</a></li>
+            <li><a class="dropdown-item" href="anthem.html">The Anthem, Washington D.C.</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="suggestions.html">Suggestions</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Hero Header -->
+<header class="hero-header text-white d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="fw-bold display-4 mb-3">Venues</h1>
+        <p class="lead mb-4">Find the perfect spot for concerts, festivals, and live events.</p>
+    </div>
+</header>
+
+<!-- About Content Section -->
+<section class="py-5 bg-light text-dark">
+  <div class="container">
+
+    <div class="row mb-5">
+      <div class="col-lg-10 mx-auto">
+        <h2 class="fw-bold mb-3 text-center mission-title">Our Mission</h2>
+        <p class="lead text-center">
+          Venues of Virginia was created to highlight the best live music experiences across the state.
+          From Charlottesville to Richmond, from Virginia Beach to (technically out of state) Washington D.C., each venue offers a
+          unique atmosphere, unforgettable performances, and a special connection to music culture.
+        </p>
+        <p class="text-center">
+          Explore the venues below to learn more about their history, layout, acoustics, and why each one
+          stands out as a cornerstone of the East Coast concert scene.
+        </p>
+      </div>
+    </div>
+
+    <!-- Venue Cards -->
+    <div class="row g-4">
+
+      <!-- Jefferson -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 custom-card">
+          <div class="card-body text-center">
+            <img src="jefferson.jpeg" class="card-img-top" alt="Jefferson venue photo">
+            <h5 class="card-title fw-bold">The Jefferson</h5>
+            <p class="card-text">Charlottesville’s historic theatre known for intimate, high-energy shows.</p>
+            <a href="jefferson.html" class="btn btn-dark">View Page</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- National -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 custom-card">
+          <div class="card-body text-center">
+            <img src="national.jpeg" class="card-img-top" alt="The National venue photo">
+            <h5 class="card-title fw-bold">The National</h5>
+            <p class="card-text">A D.C. classic known for electric crowds and incredible touring acts.</p>
+            <a href="nats.html" class="btn btn-dark">View Page</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Allianz -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 custom-card">
+          <div class="card-body text-center">
+            <img src="allianz.jpeg" class="card-img-top" alt="Allianz venue photo">
+            <h5 class="card-title fw-bold">The Allianz</h5>
+            <p class="card-text">Richmond’s open-air amphitheater with a vibrant local music scene.</p>
+            <a href="allianz.html" class="btn btn-dark">View Page</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Veterans -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 custom-card">
+          <div class="card-body text-center">
+            <img src="veterans.jpeg" class="card-img-top" alt="Veterans venue photo">
+            <h5 class="card-title fw-bold">Veterans United Home Loans Amphitheatre</h5>
+            <p class="card-text">Virginia Beach’s biggest summer venue with massive touring lineups.</p>
+            <a href="veterans.html" class="btn btn-dark">View Page</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Anthem -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 custom-card">
+          <div class="card-body text-center">
+            <img src="anthem.jpeg" class="card-img-top" alt="Anthem venue photo">
+            <h5 class="card-title fw-bold">The Anthem</h5>
+            <p class="card-text">A waterfront D.C. venue known for top-tier sound and unforgettable performances.</p>
+            <a href="anthem.html" class="btn btn-dark">View Page</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hampton -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 custom-card">
+          <div class="card-body text-center">
+            <img src="hampton.jpeg" class="card-img-top" alt="Hampton venue photo">
+            <h5 class="card-title fw-bold">Hampton Coliseum</h5>
+            <p class="card-text">A legendary venue for jam bands, rap tours, and massive festivals.</p>
+            <a href="hampton.html" class="btn btn-dark">View Page</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Footer -->
+    <footer class="py-4 bg-dark">
+      <div class="container text-center text-white small">
+        <p class="m-0">&copy; 2025 Venues of Virginia | Explore. Visit. Experience.</p>
+      </div>
+    </footer>
+
+<!-- LOAD BOOTSTRAP 5.3.7 JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+crossorigin="anonymous"></script>
+
+
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
